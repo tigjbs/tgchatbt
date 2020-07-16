@@ -42,6 +42,7 @@ input
 button
 {
     border-radius:0 1vw 1vw 0;
+    background-color: antiquewhite;
 }
 #chats
 {

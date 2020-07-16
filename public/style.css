@@ -54,6 +54,7 @@ button
     border-radius:3vw;
     padding:1vw 3vw;
     display: inline-block;
+    background-color: aqua;
 }
 #chats dt.self
 {
@@ -65,7 +66,7 @@ button
     clear:both;
     margin-left: 8vw;
     position: relative;
-    background-color:rgb(241, 175, 227);
+    background-color:aqua;
     border-radius:3vw;
     padding:1vw 3vw;
 }
@@ -73,7 +74,7 @@ button
 {
     margin-right: 8vw;
     margin-left: 0;
-    background-color:#ccf;
+    background-color:#fcc;
 }
 #chats dd::before
 {
@@ -84,7 +85,7 @@ button
     left: -6vw;
     margin-top: -7vw;
     border: 3vw solid transparent;
-    border-right: 8vw solid rgb(241, 175, 227);
+    border-right: 8vw solid aqua;
     transform: rotate(40deg);
     z-index: -1;
     width:0;
@@ -94,7 +95,7 @@ button
     right:-6vw;
     left:inherit;
     border-right: 3vw solid transparent;
-    border-left: 8vw solid #ccf;
+    border-left: 8vw solid #fcc;
     transform: rotate(-40deg);
     z-index: -1;
 }
